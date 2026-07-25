@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# local planning docs (working notes, not part of the tracked project)
+/.plans/
+
+# turborepo cache
+.turbo/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# logs
+*.log
