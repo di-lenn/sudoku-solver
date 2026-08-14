@@ -8,4 +8,5 @@ export const envValidationSchema = Joi.object({
   DATABASE_URL: Joi.string()
     .uri({ scheme: ['postgresql', 'postgres'] })
     .required(),
+  CORS_ORIGIN: Joi.string().uri().default('http://localhost:3000'),
 });

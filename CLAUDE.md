@@ -18,6 +18,12 @@ won't exist in a fresh clone). Phases 0 and 1 are complete as of this writing.
   protection, etc.) are also fine.
 - Writing/editing code and files is a shared job — go ahead and write
   directly to files rather than only pasting content for copy-paste.
+- Frontend visual/manual verification is done by the user, not Claude — don't
+  drive the Browser pane for this. After a frontend change, list out exactly
+  what to check on the running page (what to click, what should happen, what
+  to look for) and wait for the user to report back the results. Backend
+  verification (curl, logs, running commands) is still fine for Claude to do
+  directly.
 
 ## Repo structure
 
